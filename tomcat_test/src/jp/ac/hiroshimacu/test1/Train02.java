@@ -53,6 +53,7 @@ public class Train02 extends HttpServlet {
 		}else{
 			//throw new ServletException("不正なリクエストです");
 			String url = "/tomcat_test/login2.jsp";
+			//String url =　でそのプログラムに飛ぶ
 			response.sendRedirect(url);
 			
 			
